@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-finspace`](https://www.npmjs.com/package/@aws-sdk/client-finspace/v/3.798.0).
+[`@aws-sdk/client-finspace`](https://www.npmjs.com/package/@aws-sdk/client-finspace/v/3.799.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.798.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.799.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-qRdgs1/UUsZLPq58pjrZk4fd3pqu8J+wQ46hP1caQgOgmQ4W/y28QhlCnpq4TEOG
+sha384-MwEygacHleSdLSXaGG8YnxPerYymSn2K8n3DdKnhZNBhc5bb1bXd3NQRg28MeLOz
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-finspace": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.798.0/index.min.mjs"
+            "@aws-sdk/client-finspace": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.799.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.798.0/index.min.mjs": "sha384-qRdgs1/UUsZLPq58pjrZk4fd3pqu8J+wQ46hP1caQgOgmQ4W/y28QhlCnpq4TEOG"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.799.0/index.min.mjs": "sha384-MwEygacHleSdLSXaGG8YnxPerYymSn2K8n3DdKnhZNBhc5bb1bXd3NQRg28MeLOz"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-finspace": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.798.0/index.min.mjs"
+                        "@aws-sdk/client-finspace": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.799.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.798.0/index.min.mjs": "sha384-qRdgs1/UUsZLPq58pjrZk4fd3pqu8J+wQ46hP1caQgOgmQ4W/y28QhlCnpq4TEOG"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace@3.799.0/index.min.mjs": "sha384-MwEygacHleSdLSXaGG8YnxPerYymSn2K8n3DdKnhZNBhc5bb1bXd3NQRg28MeLOz"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.798.0`)
+* Always pin to a specific version (`@3.799.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-finspace/blob/refs/tags/3.798.0/LICENSE
+https://github.com/cloud-sdk-builds/client-finspace/blob/refs/tags/3.799.0/LICENSE
 ```
 
 ---
